@@ -675,7 +675,7 @@ configure(XEvent *e)
 void
 usage()
 {
-	die("usage: %s [file]", argv0);
+	die("usage:\n\t%s [file]\n\t%s -h\n\t%s -v", argv0, argv0, argv0);
 }
 
 int
